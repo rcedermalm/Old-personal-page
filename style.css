@@ -1,10 +1,13 @@
 /* För att inte få saker under navbar */
 .container{
 	margin-top: 6%;
+	padding-top:5px;
 	margin-bottom: 3%;
 }
 
-
+#start{
+	color: white;
+}
 
 /*profilbild*/
 #profil{
@@ -26,6 +29,8 @@
 	margin-bottom:15%;
 }
 
-
+#grey{
+	background-color: 666666;
+}
 
 
