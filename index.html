@@ -12,7 +12,8 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50" style="height:1500px">
-<p id="start"> Välkommen</p>
+
+
 <!--NAVIGATION BAR -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
@@ -28,8 +29,8 @@
 		<ul class="nav navbar-nav navbar-right">
 		  <li class="active"><a href="#start">Start</a></li>
 		  <li><a href="#projekt">Projekt</a></li>
-		  <li><a href="#">Engagemang</a></li>
-		  <li><a href="#">Kontakt</a></li>
+		  <li><a href="#engagemang">Engagemang</a></li>
+		  <li><a href="#kontakt">Kontakt</a></li>
 		</ul>
 	</div>
   </div>
@@ -37,6 +38,8 @@
 
 
 <!--PROFIL -->
+<p id="start" class="invisible"> Välkommen</p><!--<p class="invisible"> Välkommen</p>-->
+<div id="profildel">
 <div class="container">
   <div class="row">
     <div class="col-md-6">
@@ -50,11 +53,12 @@
 	</div>
   </div>
 </div>
-	
+</div>
 	
 <!--PROJEKT -->
 <p id="projekt"> </p>
-<div class="container" id="grey">
+<div class="grey">
+<div class="container">
   <h2>Projekt</h2>
   <div class="row">
     <div class="col-md-3">
@@ -88,9 +92,49 @@
 	</div>
   </div>
 </div>
-	
+
+
 <!--ENGAGEMANG-->
-<div class="container"></div>
+<p id="engagemang" class="invisible"> Hej</p></div>
+<div class="container">
+<h2>Engagemang</h2>
+  <div class="row">
+    <div class="col-md-6">	
+		<img src="Mette.jpg" id="engagemangbild">
+	</div>
+	<div class="col-md-6">
+		<h3>Mette - Medietekniksektionens tjejförening 15/16</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+	<h3>Legionen 2016 - MT och GDK sektionernas Phadderi</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="col-md-6">
+		<img src="Minionen.jpg" id="engagemangbild">
+	</div>
+  </div>
+</div>
+
+<!--KONTAKT -->
+<p id="kontakt" class="invisible"> Kontakt</p>
+<div id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" id="last">
+				<h3>Kontakt</h3>
+				<p>Email: rebecca@cedermalm.se <br>
+				Github: rcedermalm <br>
+				Facebook: Rebecca Cedermalm <br>
+			</div>
+		</div>
+	</div>
+</div>
 
 </body>
+
 </html>
