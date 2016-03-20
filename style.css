@@ -15,8 +15,16 @@
 	margin-top: 3%;
 }
 
-.projectpicture{
-	height:10;
-	width: 10;
+.projektbild{
+	margin-top:2%;
+	width: 80%;
+	margin-left: 15%;
+	margin-top: 5%;
+	margin-bottom:15%;
 }
+
+.projektrad{
+	margin-bottom:10%;
+}
+
 
