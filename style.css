@@ -1,0 +1,22 @@
+/* För att inte få saker under navbar*/
+.container{
+	margin-top:6%;
+}
+
+/*profilbild*/
+#profil{
+	float:right;
+	margin-right:10%;
+	margin-top: 5%;
+}
+
+/*texten bredvid profilbilden*/
+#profiltext{
+	margin-top: 3%;
+}
+
+.projectpicture{
+	height:10;
+	width: 10;
+}
+
