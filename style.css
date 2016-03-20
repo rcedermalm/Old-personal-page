@@ -1,7 +1,10 @@
-/* För att inte få saker under navbar*/
+/* För att inte få saker under navbar */
 .container{
-	margin-top:6%;
+	margin-top: 6%;
+	margin-bottom: 3%;
 }
+
+
 
 /*profilbild*/
 #profil{
@@ -23,8 +26,6 @@
 	margin-bottom:15%;
 }
 
-.projektrad{
-	margin-bottom:10%;
-}
+
 
 
