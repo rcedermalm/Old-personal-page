@@ -13,8 +13,7 @@
 	display: table;
 	width: 100%;
 	text-align: center;
-	background: url("images/startbild.JPG") no-
-		repeat bottom center scroll;
+	background: url("images/startbild.JPG");
 	background-color: white;
 	background-size: cover;
 }
