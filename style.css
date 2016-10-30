@@ -1,3 +1,57 @@
+.bg-1 { 
+    background-image: url("images/startbild.JPG")
+    color: #ffffff;
+}
+
+@media (min-width:768px)
+.intro{
+	height: 100%;
+	padding: 0;
+}
+
+.intro{
+	display: table;
+	width: 100%;
+	text-align: center;
+	background: url("images/startbild.JPG") no-
+		repeat bottom center scroll;
+	background-color: white;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* För att inte få saker under navbar */
 #profildel{
 	margin-top: 6%;
