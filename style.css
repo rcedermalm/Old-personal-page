@@ -9,6 +9,11 @@
 }
 
 .jumbotron:hover{
+	
+	animation: gallery 2s 1;
+	animation-direction: normal;
+	animation-timing-function: steps(1, end);	
+	
 	-webkit-animation-name: gallery;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-iteration-count: 1;
