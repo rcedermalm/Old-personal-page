@@ -10,7 +10,9 @@
 
 .jumbotron:hover{
 	
-	animation: gallery 2s 1;
+	animation-name: gallery;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
 	animation-direction: normal;
 	animation-timing-function: steps(1, end);	
 	
