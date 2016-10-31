@@ -1,7 +1,7 @@
 
 .jumbotron{
     height: 100vh;
-	background-image: url('images/startbild2.JPG');
+	background-image: url('images/startbild2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -21,7 +21,7 @@
 
 @-webkit-keyframes gallery {
   0% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('images/startbild2.jpg');
   }
   20% {
     background-image: url('images/startbild3.JPG');
