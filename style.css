@@ -1,7 +1,7 @@
 
 .jumbotron{
     height: 100vh;
-	background-image: url('images/startbild1.JPG');
+	background-image: url('rcedermalm.github.io/images/startbild1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -21,22 +21,22 @@
 
 @-webkit-keyframes gallery {
   0% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('rcedermalm.github.io/images/startbild2.jpg');
   }
   20% {
-    background-image: url('images/startbild3.JPG');
+    background-image: url('rcedermalm.github.io/images/startbild3.jpg');
   }
   40% {
-    background-image: url('images/startbild4.JPG');
+    background-image: url('rcedermalm.github.io/images/startbild4.jpg');
   }
   60% {
-    background-image: url('images/startbild5.JPG');
+    background-image: url('rcedermalm.github.io/images/startbild5.jpg');
   }
   80% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('rcedermalm.github.io/images/startbild2.jpg);
   }
   100% {
-    background-image: url('images/startbild1.JPG');
+    background-image: url('rcedermalm.github.io/images/startbild1.jpg');
   }
 }
 
