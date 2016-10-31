@@ -1,7 +1,7 @@
 
 .jumbotron{
     height: 100vh;
-	background-image: url('images/startbild1.JPG');
+	background-image: url('images\startbild1.JPG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -21,43 +21,43 @@
 
 @-webkit-keyframes gallery {
   0% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('images\startbild2.JPG');
   }
   20% {
-    background-image: url('images/startbild3.JPG');
+    background-image: url('images\startbild3.JPG');
   }
   40% {
-    background-image: url('images/startbild4.JPG');
+    background-image: url('images\startbild4.JPG');
   }
   60% {
-    background-image: url('images/startbild5.JPG');
+    background-image: url('images\startbild5.JPG');
   }
   80% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('images\startbild2.JPG');
   }
   100% {
-    background-image: url('images/startbild1.JPG');
+    background-image: url('images\startbild1.JPG');
   }
 }
 
 @keyframes gallery {
   0% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('images\startbild2.JPG');
   }
   20% {
-    background-image: url('images/startbild3.JPG');
+    background-image: url('images\startbild3.JPG');
   }
   40% {
-    background-image: url('images/startbild4.JPG');
+    background-image: url('images\startbild4.JPG');
   }
   60% {
-    background-image: url('images/startbild5.JPG');
+    background-image: url('images\startbild5.JPG');
   }
   80% {
-    background-image: url('images/startbild2.JPG');
+    background-image: url('images\startbild2.JPG');
   }
   100% {
-    background-image: url('images/startbild1.JPG');
+    background-image: url('images\startbild1.JPG');
   }
 }
 
