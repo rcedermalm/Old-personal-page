@@ -3,12 +3,13 @@
     height: 100vh;
 	background-image: url('images/startbild.JPG');
 	background-size: cover;
-	margin-right: auto;
+	/*margin-right: auto;
 	margin-left: auto;
-	/*position: absolute;
+	position: absolute;
 	margin:0 auto;
 	justify-content: center;*/
 	background-repeat: no-repeat;
+	background-position:center;
 }
 
 
