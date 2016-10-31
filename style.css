@@ -18,8 +18,8 @@
 	
 	-webkit-animation-name: gallery;
 	-webkit-animation-duration: 2s;
-	/*-webkit-animation-iteration-count: 1;
-	-webkit-animation-direction: normal;
+	-webkit-animation-iteration-count: 1;
+	/*-webkit-animation-direction: normal;
 	-webkit-animation-timing-function: steps(1, end);
 	*/
 }
