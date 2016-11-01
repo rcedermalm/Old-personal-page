@@ -1,3 +1,7 @@
+	body {
+		background-color: #a80202;
+	}
+
 
 	.jumbotron{
 		height: 100vh;
@@ -7,6 +11,7 @@
 		background-attachment: fixed;
 		background-position:center;
 		position: center;
+		margin-bottom:0%;
 	}
 
 	.jumbotron:hover{
@@ -31,8 +36,8 @@
 
 	}
 
-	#threetimestext{
-		margin: 10%;
+	#info{
+		color: #ffffff;
 	}
 
 		
