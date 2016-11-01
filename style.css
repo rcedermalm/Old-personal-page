@@ -7,6 +7,20 @@
 		padding: 20%;
 	}
 	
+	i {
+		margin: 5%;
+	}
+	
+	a {
+		font-style: italic;
+		border-bottom: 1px solid #ffffff;
+		color: #ffffff !important; 
+	}
+	
+	.info{
+		min-height:100vh;
+	}
+	
 	.iconalign {
 		vertical-align: middle;
 	}
