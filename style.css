@@ -1,70 +1,84 @@
 
-.jumbotron{
-    height: 100vh;
-	background-image: url('rcedermalm.github.io/images/startbild1.JPG');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position:center;
-}
+	.jumbotron{
+		height: 100vh;
+		background-image: url('rcedermalm.github.io/images/startbild1.JPG');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position:center;
+		position: center;
+	}
 
-.jumbotron:hover{
-	-webkit-animation-name: gallery;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-iteration-count: 1;
+	.jumbotron:hover{
+		-webkit-animation-name: gallery;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-iteration-count: 1;
+		
+		animation-name: gallery;
+		animation-duration: 2s;
+		animation-iteration-count: 1;
+
+	}
 	
-	animation-name: gallery;
-	animation-duration: 2s;
-	animation-iteration-count: 1;
+	.btn-circle {
+		width: 73px;
+		height: 73px;
+		margin-top: 70vh;
+		border: 2px solid #ffffff;
+		border-radius: 100% !important;
+		color: #ffffff;
+		background: 0 0;
 
 	}
 
+	#threetimestext{
+		margin: 10%;
+	}
 
-@-webkit-keyframes gallery {
-  0% {
-    background-image: url('rcedermalm.github.io/images/startbild2.jpg');
-  }
-  20% {
-    background-image: url('rcedermalm.github.io/images/startbild3.jpg');
-  }
-  40% {
-    background-image: url('rcedermalm.github.io/images/startbild4.jpg');
-  }
-  60% {
-    background-image: url('rcedermalm.github.io/images/startbild5.jpg');
-  }
-  80% {
-    background-image: url('rcedermalm.github.io/images/startbild2.jpg);
-  }
-  100% {
-    background-image: url('rcedermalm.github.io/images/startbild1.JPG');
-  }
-}
+		
 
-@keyframes gallery {
-  0% {
-    background-image: url('rcedermalm.github.io/images/startbild2.jpg');
-  }
-  20% {
-    background-image: url('rcedermalm.github.io/images/startbild3.jpg');
-  }
-  40% {
-    background-image: url('rcedermalm.github.io/images/startbild4.jpg');
-  }
-  60% {
-    background-image: url('rcedermalm.github.io/images/startbild5.jpg');
-  }
-  80% {
-    background-image: url('rcedermalm.github.io/images/startbild2.jpg);
-  }
-  100% {
-    background-image: url('rcedermalm.github.io/images/startbild1.jpg');
-  }
-}
+	@-webkit-keyframes gallery {
+	  0% {
+		background-image: url('rcedermalm.github.io/images/startbild2.jpg');
+	  }
+	  20% {
+		background-image: url('rcedermalm.github.io/images/startbild3.jpg');
+	  }
+	  40% {
+		background-image: url('rcedermalm.github.io/images/startbild4.jpg');
+	  }
+	  60% {
+		background-image: url('rcedermalm.github.io/images/startbild5.jpg');
+	  }
+	  80% {
+		background-image: url('rcedermalm.github.io/images/startbild2.jpg');
+	  }
+	  100% {
+		background-image: url('rcedermalm.github.io/images/startbild1.JPG');
+	  }
+	}
 
-#threetimestext{
-	margin: 10%;
-}
+	@keyframes gallery {
+	  0% {
+		background-image: url('rcedermalm.github.io/images/startbild2.jpg');
+	  }
+	  20% {
+		background-image: url('rcedermalm.github.io/images/startbild3.jpg');
+	  }
+	  40% {
+		background-image: url('rcedermalm.github.io/images/startbild4.jpg');
+	  }
+	  60% {
+		background-image: url('rcedermalm.github.io/images/startbild5.jpg');
+	  }
+	  80% {
+		background-image: url('rcedermalm.github.io/images/startbild2.jpg);
+	  }
+	  100% {
+		background-image: url('rcedermalm.github.io/images/startbild1.JPG');
+	  }
+	}
+
 
 
 
