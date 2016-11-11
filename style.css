@@ -3,10 +3,21 @@
 		color: #ffffff !important;
 	}
 
-	p {
-		padding: 15%;
+	
+	@media screen and (orientation: portrait) {
+		p {
+		padding: 10%;
 		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		font-size: 16px;
+		}
+	}
+	
+	@media screen and (orientation: portrait) {
+		p {
+			padding: 15%;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			font-size: 16px;
+		}
 	}
 	
 	i {
