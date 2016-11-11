@@ -28,11 +28,16 @@
 		animation-duration: 2s;
 		animation-iteration-count: 1;
 
+		}
 	}
+	
+	.smallIcon{
+		font-size: 8px;
+		margin: 2px;
 	}
 	
 	i {
-		margin: 5%;
+		margin: 3%;
 	}
 	
 	a {
