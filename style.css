@@ -18,6 +18,17 @@
 			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 			font-size: 16px;
 		}
+		
+		.jumbotron:hover{
+		-webkit-animation-name: gallery;
+		-webkit-animation-duration: 2s;
+		-webkit-animation-iteration-count: 1;
+		
+		animation-name: gallery;
+		animation-duration: 2s;
+		animation-iteration-count: 1;
+
+	}
 	}
 	
 	i {
@@ -55,16 +66,7 @@
 		margin-bottom:0%;
 	}
 
-	.jumbotron:hover{
-		-webkit-animation-name: gallery;
-		-webkit-animation-duration: 2s;
-		-webkit-animation-iteration-count: 1;
-		
-		animation-name: gallery;
-		animation-duration: 2s;
-		animation-iteration-count: 1;
 
-	}
 	
 	.btn-circle {
 		width: 73px;
