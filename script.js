@@ -32,4 +32,4 @@ $.fn.preload = function() {
 // Usage:
 
 $(['rcedermalm.github.io/images/startbild1.JPG', 'rcedermalm.github.io/images/startbild2low.jpg', 'rcedermalm.github.io/images/startbild3low.jpg',
-	'rcedermalm.github.io/images/startbild4low.jpg', 'rcedermalm.github.io/images/startbild2low.jpg']).preload();
+	'rcedermalm.github.io/images/startbild4low.jpg', 'rcedermalm.github.io/images/startbild5low.jpg']).preload();
