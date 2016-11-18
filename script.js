@@ -22,3 +22,14 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+$.fn.preload = function() {
+    this.each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+// Usage:
+
+$(['rcedermalm.github.io/images/startbild1.JPG', 'rcedermalm.github.io/images/startbild2low.jpg', 'rcedermalm.github.io/images/startbild3low.jpg',
+	'rcedermalm.github.io/images/startbild4low.jpg', 'rcedermalm.github.io/images/startbild2low.jpg']).preload();
